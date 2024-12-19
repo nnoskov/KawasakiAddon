@@ -1,0 +1,34 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib">
+  
+    <!-- for ribbon button -->
+    <s:String x:Key="ComboKey::Python.printHelloLocalized.Text">Print Hello(in English)</s:String>
+    <s:String x:Key="ComboKey::Python.printHelloLocalized.Tooltip">Print hello World in message panel(in English)</s:String>
+
+    <s:String x:Key="ComboKey::Python.PostProcessLauncher.Text">Run</s:String>
+    <s:String x:Key="ComboKey::Python.PostProcessLauncher.Tooltip">Running postprocessing of selected robots</s:String>
+
+    <!-- for ribbon group -->
+    <s:String x:Key="ComboKey::Python.NewRibbonGroup.Text">Postprocessing</s:String>
+    <s:String x:Key="ComboKey::Python.NewRibbonGroup.Tooltip">Postprocessing of Kawasaki robots</s:String>
+   
+    <!-- for ribbon context tab and tab -->
+    <s:String x:Key="ComboKey::Python.TabHeader.Text">AddOns</s:String>
+    <s:String x:Key="ComboKey::Python.pyContextTabGroup.Text">BAZ</s:String>
+    
+	<!-- for message box -->
+    <s:String x:Key="ComboKey::Python.MsgBoxTitle.Text">Hello (in English)</s:String>
+    <s:String x:Key="ComboKey::Python.MsgBoxMessage.Text">I am localized Message in English</s:String>
+    
+	<!-- for properties in content panel -->
+    <s:String x:Key="ComboKey::Python.printHelloLocalized.btnPropName.Name">Button (in English)</s:String> 
+    <s:String x:Key="ComboKey::Python.printHelloLocalized.ColorPropName.Name">Color (in English)</s:String> 
+	<s:String x:Key="ComboKey::Python.printHelloLocalized.Advanced::togglePropName.Name">Toogle (in English)</s:String> 
+    
+	<!-- for step values -->
+	<s:String x:Key="ComboKey::Python.printHelloLocalized.ColorPropName.red">Red (in English)</s:String> 
+	<s:String x:Key="ComboKey::Python.printHelloLocalized.ColorPropName.blue">Blue (in English)</s:String> 
+	<s:String x:Key="ComboKey::Python.printHelloLocalized.ColorPropName.green">Green (in English)</s:String>
+    
+</ResourceDictionary>
